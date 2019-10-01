@@ -1,0 +1,94 @@
+body {
+    margin: 0;  
+    height: 1200px;
+    background-color: rgb(32, 32, 32);
+}
+header{
+    background-color: rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(156, 156, 156);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+}
+h2 {
+    font-family: 'Inconsolata', monospace;
+}
+footer {
+    color: white;
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+.contact {
+    color: rgb(224, 224, 224);
+    position: relative;
+    top: -200px;
+    text-align: center;
+}
+.contact ul {
+    padding: 0;
+}
+.contact ul li {
+    display: inline-block;
+    font-size: 36px;
+    list-style: none;
+}
+.contact ul li a {
+    color: rgb(224, 224, 224);
+}
+.logo-github:hover {
+    color: #6e5494;
+}
+.logo-linkedin:hover{
+    color: #0077B5;
+}
+.mail:hover {
+    color: #f44339;
+}
+.content {
+    background-image:url("img/contentbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% -200px;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 100px 0 125px 0;
+    text-align: center;
+    position: relative;
+    top: -225px;
+    z-index: -1;
+}
+.content p {
+    color: rgb(245, 245, 245);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    line-height: 2em;
+}
+.content div {
+    margin-bottom: 50px;
+}
+.info{
+    margin: 0 25% 0 0;
+    padding: 5px;
+    text-align: right;
+}
+.info h1 {
+    font-family: 'Inconsolata', monospace;
+}
+.sub-info {
+    margin-top: -15px;
+    color: rgb(236, 236, 236);
+}
+.red-name {
+    color: #f44339;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px rgb(54, 54, 54);
+}
+#profile-picture {
+    border: 1px solid rgb(156, 156, 156);
+    position: relative;
+    top: -100px;
+    margin: 0 0 0 30%; 
+    width: 175px;
+    border-radius: 50%;
+}
