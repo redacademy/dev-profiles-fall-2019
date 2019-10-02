@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(185, 136, 136);
+}
+hr{ 
+    
+    background-color: black; 
+    border-style: none;
+    height: 3px;
+}
+   
+img {
+    height: 200px
+}

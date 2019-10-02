@@ -1,0 +1,28 @@
+.name{border: 2px solid #4d194d;
+	padding:10px;
+	background-color: #4d194d;
+	text-align: center;
+	font-size: 25px;
+	font-family:cursive;
+}
+	
+
+#patfoto{width: 250px; height: 250px;
+border-radius: 30%;
+}
+#pat{letter-spacing: .4em;}
+img{
+	float: :left;
+	width: 500px;
+}
+#nina{width:200px; height: 200px;
+float: right;}
+h1,h2,h3,h4,p,ul,li,a{color: white;}
+a{text-decoration: none;
+font-size: 28px;
+border: 3px solid #4d194d;
+border-radius: 80%;
+	padding:10px;
+	background-color: #4d194d;}
+
+body{background-color: black;}

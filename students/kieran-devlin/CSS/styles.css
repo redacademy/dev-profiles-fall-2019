@@ -1,0 +1,142 @@
+/* ELEMENT SELECTOR */
+
+
+a   {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ebc3e5;
+}
+
+body    {
+    color: #7a7874;
+    margin: 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h1 ,
+h2 ,
+h3 {
+    color: #42413e;
+}
+
+
+ul {
+    margin: auto;
+}
+
+li {
+    margin: auto;
+    text-align: left;
+
+}
+
+section {
+    margin: 300px 15% 300px;
+}
+
+
+/* CLASS SELECOTR */
+
+.nav-item {
+    font-family: 'Playfair Display', serif;
+    padding: 0 5%;
+}
+
+.nav {
+    background-color: #018dc0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.header-img {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 55px;
+}
+
+.header-img-description {
+    text-align: center;
+}
+
+.dids-img {
+    margin: 0;
+    width: 100%;
+}
+
+.welcome {
+    text-align: center;
+    margin: 200px;
+}
+
+
+.title {
+    font-family: 'Playfair Display', serif;
+
+}
+
+.footer-p {
+    background-color: #018dc0;
+    margin:200px 0 0;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+.profile-pic {
+    width: 20%;
+}
+
+.suitcase {
+    float: left;
+    margin: 0 5% 5% 0;
+    width: 20%;
+}
+
+.rocks {
+    float: right;
+    margin: 0 0 5% 5%;
+    width: 20%;
+
+}
+
+.mountain {
+    float: left;
+    margin: 0 5% 5% 0;
+    width: 20%;
+}
+
+
+
+.earth {
+    float: right;
+    margin: 0 0 5% 5%;
+    width: 20%;
+}
+
+.social-img {
+    margin: 0 8%;
+}
+
+
+/* ID SELECTOR */
+
+#who {
+    text-align: center;
+}
+
+#how {
+    margin-bottom: 0;
+}
