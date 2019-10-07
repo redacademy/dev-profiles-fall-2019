@@ -1,0 +1,191 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border:0;
+    overflow-x:hidden;
+    line-height: 1.5;
+    
+}
+
+body {
+    box-sizing: content-box;
+    font-family: 'Roboto','Microsoft Sans Serif';
+}
+
+.con1 {
+    width: 80%;
+    align-content: center;
+    height: 100%;
+    position: relative;
+    margin: 0 0 0 10%;
+    background-color: white;
+}
+.header{
+    height:40%;
+    width:100%;
+    display:wrap;
+    flex-wrap: wrap;
+}
+.prof-pic{
+    background-color:dimgray;
+    height:100%;
+    width:20%;
+    float:left;
+    text-align:center;
+    padding:2% 0 0 0;
+    margin:0;
+    clear:both;
+    border-radius: 15%;
+}
+.prof-pic > img {
+    width:100%;
+    height:100%;
+    margin:0;
+    position:inherit;
+    border-radius:100%;
+    display:wrap;
+    flex-direction: row;
+}
+.post {
+    font-family: Ravie;
+    font-size:xx-large;
+    text-align: center;
+    color:dimgray;
+    height:100%;
+    width:80%;
+    padding:2% 0 2% 0;
+    margin:0;
+}
+.menu-list {
+    margin-top: 1%;
+    font-size: 20px;
+    width: 100%;
+    list-style: none;
+    float: right;
+    clear: left;
+    text-align: center;
+    text-decoration: none;
+}
+.menu-list >li:nth-child(even) {
+    display: inline-block;
+    padding: 1% ;
+    background-color: dodgerblue;
+    color: white;
+}
+.menu-list > li:nth-child(odd) {
+    display: inline-block;
+    padding: 1%;
+    background-color:forestgreen;
+    color: white;
+}
+.menu-list > li:hover{
+    cursor: pointer;
+    background-color: dimgray;
+    color: yellow;
+}
+.menu-list > li >a {
+    text-decoration: none;
+    color:white;
+}
+
+.con2{
+    margin-top:5%;
+    height:auto;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+    
+}
+
+.target-menu{
+    list-style:none;
+    width:100%;
+}
+.target-menu > li {
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}
+.target-menu  li:last-child p{
+    text-align:left;
+}
+.target-menu a {
+    font-family:sans-serif;
+    font-size:20px;
+    text-decoration-style:solid;
+    padding: 1% 2% 1% 2%;
+    background-color: dimgray;
+    color: white;
+    text-decoration: none;
+    clear:right;
+    display:block;
+    width:30%;
+    text-align: center;
+}
+.target-menu p {
+    margin:0 0 2% 0;
+    text-align: center;
+    width: 50%;
+    display: block;
+    padding: 0 0 0 20%;
+}
+.target-menu >li>a:hover{
+    background-color:darkorange;
+    color: white;
+    cursor: pointer;
+}
+
+.try-sec p{
+    text-align:center;
+    text-transform: uppercase;
+}
+/* QUESTION: why this code for applying background image into a <div> doesnt work? 
+.try-sec >.imeg{
+    width:100%;
+    height:auto;
+    background-image: url("res/sun.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+
+}
+@media screen and (max-width:400px) and (orientation:portrate){
+    .post {
+        font-family: Ravie;
+        font-size:x-large;
+        text-align: center;
+        color:dodgerblue;
+        height:100%;
+        width:80%;
+        padding:2% 0 2% 0;
+        margin:0;
+    }
+
+}
+*/
+section{
+    position: relative;
+}
+
+.footer{
+    background-color:dimgray;
+    width:100%;
+    height:auto;
+    padding:2px;
+    color:white;
+    padding:0;
+    margin:0;
+    float:left;
+}
+.footer > a {
+    color:white;
+    float:right;
+    text-decoration:none;
+}
+.footer > i {
+    margin-top:5px;
+    text-align:center;
+    float:right;
+    text-decoration:none;
+}
